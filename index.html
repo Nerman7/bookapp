@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header><img id="headerimg" src="stj-header-books.jpg" alt=""></a></header>
+    
+    <form id="inputUser" autocomplete="off">
+        <div>
+            <h1>Add a book</h1>
+        </div>
+        <div>
+            <label for="title">Title</label> <br>
+             <input type="text" id="title" name="title" class="inputWindow">
+           
+        </div>
+        <div>
+            <label for="author">Author</label> <br>
+            <input type="text" id="author" name="author" class="inputWindow">
+        </div>
+        <div>
+            <label for="genre">Genre</label><br>
+            <input type="text" id="genre" name="genre" class="inputWindow">
+        </div>
+        <div>
+            <input id="button" type="submit" value="Submit">
+        </div>
+    </form>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+<script src="index.js"></script>
+</body>
+
+</html>
